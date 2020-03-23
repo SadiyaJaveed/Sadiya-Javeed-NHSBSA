@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="105206" started-at="2020-03-23T17:30:40Z" finished-at="2020-03-23T17:32:25Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="105206" started-at="2020-03-23T17:30:40Z" finished-at="2020-03-23T17:32:25Z">
+      <class name="com.NHSBA.Tests.TestNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="setUpClass" is-config="true" duration-ms="274" started-at="2020-03-23T17:30:40Z" finished-at="2020-03-23T17:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="11362" started-at="2020-03-23T17:30:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:30:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Start Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="11850" started-at="2020-03-23T17:30:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Result Under16"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="11686" started-at="2020-03-23T17:31:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cannot Use The Service"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="10817" started-at="2020-03-23T17:31:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Country Not Selected"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="11547" started-at="2020-03-23T17:31:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accepts Only Past Date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="11753" started-at="2020-03-23T17:31:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Back Button Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="16345" started-at="2020-03-23T17:31:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:32:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E_Results Page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="runScenario" duration-ms="19136" started-at="2020-03-23T17:32:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-23T17:32:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["E2E_Find Out More Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of NHS Costs Checker Tool with various postitive and negative scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.NHSBA.Tests.TestNGRunner@6d78f375]" name="tearDownClass" is-config="true" duration-ms="218" started-at="2020-03-23T17:32:25Z" finished-at="2020-03-23T17:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.NHSBA.Tests.TestNGRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
